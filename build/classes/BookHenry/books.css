@@ -1,0 +1,85 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.profile-layout{
+    -fx-background-color: #ebcd34;
+    -fx-background-radius: 0 0 40 40;
+}
+
+.left-layout{
+    -fx-background-color: #fff;
+}
+
+.btn {
+    -fx-border-color: black;
+    -fx-border-radius: 5px;
+    -fx-background-color: none;
+}
+
+/*.btn-report-pub {
+    -fx-background-radius: 0 20 20 20;
+    -fx-background-color: #EBC95E;
+}
+
+.btn-report-pub:hover {
+    -fx-background-color: #ebc334;
+}
+
+.btn-report-br {
+    -fx-background-radius: 0 20 20 20;
+    -fx-background-color:  #54D39D;
+}
+
+.btn-report-br:hover {
+    
+    -fx-background-color:  #3cc278;
+}
+
+.btn-report-bo {
+    -fx-background-radius: 0 20 20 20;
+    -fx-background-color:  #70B8D9;
+}
+
+.btn-report-bo:hover {
+    
+    -fx-background-color:  #348ceb;
+}
+
+.btn-report-wr {
+    -fx-background-radius: 0 20 20 20;
+    -fx-background-color:   #F9A885;
+}
+
+.btn-report-wr:hover {
+    
+    -fx-background-color:  #ff7300;
+}
+
+.btn-report-au {
+    -fx-background-radius: 0 20 20 20;
+    -fx-background-color:   #E37A7A;
+}
+
+.btn-report-au:hover {
+    
+    -fx-background-color:   #ff0037;
+    
+}
+
+.btn-report-iv {
+    -fx-background-radius: 0 20 20 20;
+    -fx-background-color:    #03fcf4;
+}
+
+.btn-report-iv:hover {
+    
+    -fx-background-color:   #00b3ff;
+    
+}
+
+.btn-insert {
+    -fx-background-radius: 20 0 20 20;
+    -fx-background-color: #EBC95E;
+}*/
+

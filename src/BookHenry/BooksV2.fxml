@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="Layout" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BookHenry.Controller">
+   <children>
+      <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1100.0">
+         <left>
+            <VBox prefHeight="600.0" prefWidth="212.0" styleClass="left-layout" stylesheets="@books.css" BorderPane.alignment="CENTER">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="243.0" prefWidth="192.0" styleClass="profile-layout" stylesheets="@books.css">
+                     <children>
+                        <ImageView fitHeight="150.0" fitWidth="150.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Image/Logo%20%20UMB.png" />
+                           </image>
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                        </ImageView>
+                        <Label text="ADM UMB" textFill="WHITE">
+                           <VBox.margin>
+                              <Insets top="20.0" />
+                           </VBox.margin>
+                           <font>
+                              <Font name="Corbel Bold" size="20.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="10.0" right="10.0" />
+                     </VBox.margin>
+                  </VBox>
+                  <Pane prefHeight="86.0" prefWidth="210.0" />
+                  <VBox prefHeight="249.0" prefWidth="210.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="17.0" prefWidth="209.0" text="Pemrograman Berorientasi Objek">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="17.0" prefWidth="209.0" text="Tugas Besar 1 Kelompok 3">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="10.0" prefHeight="14.0" prefWidth="209.0" text="Aqsha Permana Fityantono">
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <VBox.margin>
+                              <Insets left="10.0" top="15.0" />
+                           </VBox.margin>
+                           <font>
+                              <Font name="Corbel Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="27.0" prefHeight="17.0" prefWidth="222.0" text="41519310018" textFill="#1d52cd">
+                           <VBox.margin>
+                              <Insets left="10.0" top="2.0" />
+                           </VBox.margin>
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="27.0" prefHeight="14.0" prefWidth="209.0" text="Annisa Sahida">
+                           <font>
+                              <Font name="Corbel Bold" size="14.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="10.0" top="10.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="44.0" prefHeight="17.0" prefWidth="214.0" text="41519310042" textFill="#1d52cd">
+                           <VBox.margin>
+                              <Insets left="10.0" top="2.0" />
+                           </VBox.margin>
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="61.0" prefHeight="14.0" prefWidth="213.0" text="Annisa Fitri">
+                           <font>
+                              <Font name="Corbel Bold" size="14.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="10.0" top="10.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="78.0" prefHeight="17.0" prefWidth="211.0" text="41519310045" textFill="#1d52cd">
+                           <VBox.margin>
+                              <Insets left="10.0" top="2.0" />
+                           </VBox.margin>
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="95.0" prefHeight="14.0" prefWidth="221.0" text="Josbil Artha Mirando D">
+                           <font>
+                              <Font name="Corbel Bold" size="14.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="10.0" top="10.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="112.0" prefHeight="17.0" prefWidth="221.0" text="41519310009" textFill="#1d52cd">
+                           <VBox.margin>
+                              <Insets left="10.0" top="2.0" />
+                           </VBox.margin>
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+         </left>
+         <center>
+            <VBox prefHeight="600.0" prefWidth="869.0" BorderPane.alignment="CENTER">
+               <children>
+                  <HBox prefHeight="78.0" prefWidth="777.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="78.0" prefWidth="888.0" text="HENRY BOOKS TABLE">
+                           <font>
+                              <Font name="Corbel Bold" size="20.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <TabPane prefHeight="523.0" prefWidth="888.0" style="-fx-background-color: #fff;" tabClosingPolicy="UNAVAILABLE">
+                    <tabs>
+                      <Tab style="-fx-background-color: #EBC95E;" text="Publisher">
+                        <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="498.0" prefWidth="888.0" style="-fx-background-color: #EBC95E;">
+                                 <children>
+                                    <Label alignment="CENTER" layoutY="-7.0" prefHeight="52.0" prefWidth="888.0" text="Publisher">
+                                       <font>
+                                          <Font name="Corbel Bold" size="20.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="28.0" layoutY="44.0" prefHeight="26.0" prefWidth="90.0" text="Publisher Code">
+                                       <font>
+                                          <Font name="Corbel Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="28.0" layoutY="101.0" prefHeight="26.0" prefWidth="90.0" text="Publisher Name">
+                                       <font>
+                                          <Font name="Corbel Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="28.0" layoutY="158.0" prefHeight="26.0" prefWidth="90.0" text="City">
+                                       <font>
+                                          <Font name="Corbel Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <Button fx:id="insertPub" layoutX="23.0" layoutY="247.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="27.0" prefWidth="80.0" styleClass="btn" stylesheets="@books.css" text="Insert" />
+                                    <Button fx:id="updatePub" layoutX="118.0" layoutY="291.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="27.0" prefWidth="80.0" styleClass="btn" stylesheets="@books.css" text="Update" />
+                                    <Button fx:id="deletePub" layoutX="118.0" layoutY="247.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="27.0" prefWidth="80.0" styleClass="btn" stylesheets="@books.css" text="Delete" />
+                                    <TextField fx:id="textPubCode" layoutX="23.0" layoutY="70.0" onKeyReleased="#handleInput" prefHeight="25.0" prefWidth="170.0" />
+                                    <TextField fx:id="textPubName" layoutX="23.0" layoutY="127.0" prefHeight="25.0" prefWidth="170.0" />
+                                    <TextField fx:id="textPubCity" layoutX="23.0" layoutY="184.0" prefHeight="25.0" prefWidth="170.0" />
+                                    <TableView fx:id="tablePublisher" layoutX="218.0" layoutY="44.0" onMouseClicked="#handleGetEditData" prefHeight="449.0" prefWidth="670.0">
+                                      <columns>
+                                        <TableColumn fx:id="colPubCode" prefWidth="119.0" text="Publisher Code" />
+                                        <TableColumn fx:id="colPubName" minWidth="3.0" prefWidth="294.0" text="Publisher Name" />
+                                          <TableColumn fx:id="colPubCity" minWidth="3.0" prefWidth="256.0" text="City" />
+                                      </columns>
+                                    </TableView>
+                                    <Button fx:id="resetPub" layoutX="23.0" layoutY="291.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="27.0" prefWidth="80.0" styleClass="btn" stylesheets="@books.css" text="Reset" />
+                                 </children>
+                              </AnchorPane>
+                        </content>
+                      </Tab>
+                        <Tab style="-fx-background-color: #54D39D;" text="Branch">
+                           <content>
+                              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="498.0" prefWidth="888.0" style="-fx-background-color: #54D39D;">
+                                 <children>
+                                    <Label alignment="CENTER" prefHeight="42.0" prefWidth="888.0" text="Branch">
+                                       <font>
+                                          <Font name="Corbel Bold" size="20.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="28.0" layoutY="44.0" prefHeight="26.0" prefWidth="90.0" text="Branch Num">
+                                       <font>
+                                          <Font name="Corbel" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="28.0" layoutY="101.0" prefHeight="26.0" prefWidth="90.0" text="Branch Name" />
+                                    <Label layoutX="28.0" layoutY="162.0" prefHeight="26.0" prefWidth="90.0" text="Branch Location" />
+                                    <Label layoutX="28.0" layoutY="221.0" prefHeight="26.0" prefWidth="90.0" text="Num Employees" />
+                                    <Button fx:id="insertBr" layoutX="21.0" layoutY="297.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="27.0" prefWidth="80.0" styleClass="btn" stylesheets="@books.css" text="Insert" />
+                                    <Button fx:id="resetBr" layoutX="21.0" layoutY="341.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="27.0" prefWidth="80.0" styleClass="btn" stylesheets="@books.css" text="Reset" />
+                                    <Button fx:id="updateBr" layoutX="116.0" layoutY="341.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="27.0" prefWidth="80.0" styleClass="btn" stylesheets="@books.css" text="Update" />
+                                    <Button fx:id="deleteBr" layoutX="116.0" layoutY="297.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="27.0" prefWidth="80.0" styleClass="btn" stylesheets="@books.css" text="Delete" />
+                                    <TextField fx:id="textBrNum" layoutX="23.0" layoutY="70.0" onKeyReleased="#handleInput" prefHeight="25.0" prefWidth="170.0" />
+                                    <TextField fx:id="textBrName" layoutX="23.0" layoutY="127.0" prefHeight="25.0" prefWidth="170.0" />
+                                    <TextField fx:id="textBrLocation" layoutX="23.0" layoutY="188.0" prefHeight="25.0" prefWidth="170.0" />
+                                    <TextField fx:id="textBrEmployees" layoutX="23.0" layoutY="247.0" prefHeight="25.0" prefWidth="170.0" />
+                                    <TableView fx:id="tableBranch" layoutX="218.0" layoutY="44.0" onMouseClicked="#handleGetEditData" prefHeight="449.0" prefWidth="670.0">
+                                       <columns>
+                                          <TableColumn fx:id="colBrNum" prefWidth="81.0" text="Branch Num" />
+                                          <TableColumn fx:id="colBrName" minWidth="3.0" prefWidth="258.0" text="Branch Name" />
+                                          <TableColumn fx:id="colBrLocation" minWidth="3.0" prefWidth="198.0" text="Branch Location" />
+                                          <TableColumn fx:id="colBrNumEm" minWidth="3.0" prefWidth="132.0" text="Num Employees" />
+                                       </columns>
+                                    </TableView>
+                                 </children>
+                              </AnchorPane>
+                           </content>
+                        </Tab>
+                        <Tab style="-fx-background-color: #70B8D9;" text="Book">
+                           <content>
+                              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="498.0" prefWidth="888.0" style="-fx-background-color: #70B8D9;">
+                                 <children>
+                                    <Label fx:id="" alignment="CENTER" prefHeight="42.0" prefWidth="888.0" text="Book">
+                                       <font>
+                                          <Font name="Corbel Bold" size="20.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="28.0" layoutY="44.0" prefHeight="26.0" prefWidth="90.0" text="Book Code" />
+                                    <Label layoutX="28.0" layoutY="95.0" prefHeight="26.0" prefWidth="90.0" text="Title" />
+                                    <Label layoutX="28.0" layoutY="146.0" prefHeight="26.0" prefWidth="90.0" text="Publisher Code" />
+                                    <Button fx:id="insertBo" layoutX="23.0" layoutY="371.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="27.0" prefWidth="80.0" styleClass="btn" stylesheets="@books.css" text="Insert" />
+                                    <Button fx:id="resetBo" layoutX="23.0" layoutY="415.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="27.0" prefWidth="80.0" styleClass="btn" stylesheets="@books.css" text="Reset" />
+                                    <Button fx:id="updateBo" layoutX="118.0" layoutY="415.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="27.0" prefWidth="80.0" styleClass="btn" stylesheets="@books.css" text="Update" />
+                                    <Button fx:id="deleteBo" layoutX="118.0" layoutY="371.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="27.0" prefWidth="80.0" styleClass="btn" stylesheets="@books.css" text="Delete" />
+                                    <TextField fx:id="textBoCode" layoutX="23.0" layoutY="70.0" onKeyReleased="#handleInput" prefHeight="25.0" prefWidth="170.0" />
+                                    <TextField fx:id="textBoTitle" layoutX="23.0" layoutY="121.0" prefHeight="25.0" prefWidth="170.0" />
+                                    <TextField fx:id="textBoPubCode" layoutX="23.0" layoutY="172.0" prefHeight="25.0" prefWidth="170.0" />
+                                    <TextField fx:id="textBoType" layoutX="23.0" layoutY="220.0" prefHeight="25.0" prefWidth="170.0" />
+                                    <TextField fx:id="textBoPrice" layoutX="23.0" layoutY="271.0" prefHeight="25.0" prefWidth="170.0" />
+                                    <TextField fx:id="textBoPaper" layoutX="23.0" layoutY="322.0" prefHeight="25.0" prefWidth="170.0" />
+                                    <Label layoutX="28.0" layoutY="194.0" prefHeight="26.0" prefWidth="90.0" text="Type" />
+                                    <Label layoutX="28.0" layoutY="245.0" prefHeight="26.0" prefWidth="90.0" text="Price" />
+                                    <Label layoutX="28.0" layoutY="296.0" prefHeight="26.0" prefWidth="90.0" text="Paper Back" />
+                                    <TableView fx:id="tableBook" layoutX="218.0" layoutY="44.0" prefHeight="449.0" prefWidth="670.0">
+                                       <columns>
+                                          <TableColumn fx:id="colBoCode" prefWidth="75.0" text="Book Code" />
+                                          <TableColumn fx:id="colBoTitle" minWidth="3.0" prefWidth="294.0" text="Title" />
+                                          <TableColumn fx:id="colBoPubCode" minWidth="3.0" prefWidth="91.0" text="Publisher Code" />
+                                          <TableColumn fx:id="colBoType" minWidth="3.0" prefWidth="68.0" text="Type" />
+                                          <TableColumn fx:id="colBoPrice" minWidth="3.0" prefWidth="62.0" text="Price" />
+                                          <TableColumn fx:id="colBoPaperBack" minWidth="3.0" prefWidth="79.0" text="Paper Back" />
+                                       </columns>
+                                    </TableView>
+                                 </children>
+                              </AnchorPane>
+                           </content>
+                        </Tab>
+                        <Tab style="-fx-background-color: #F9A885;" text="Author">
+                           <content>
+                              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="498.0" prefWidth="888.0" style="-fx-background-color: #F9A885;">
+                                 <children>
+                                    <Label alignment="CENTER" prefHeight="42.0" prefWidth="888.0" text="Author">
+                                       <font>
+                                          <Font name="Corbel Bold" size="20.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="28.0" layoutY="44.0" prefHeight="26.0" prefWidth="90.0" text="Author Num" />
+                                    <Label layoutX="28.0" layoutY="101.0" prefHeight="26.0" prefWidth="90.0" text="Author Last" />
+                                    <Label layoutX="28.0" layoutY="162.0" prefHeight="26.0" prefWidth="90.0" text="Author First" />
+                                    <Button fx:id="insertAu" layoutX="23.0" layoutY="247.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="27.0" prefWidth="80.0" styleClass="btn" stylesheets="@books.css" text="Insert" />
+                                    <Button fx:id="resetAu" layoutX="23.0" layoutY="291.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="27.0" prefWidth="80.0" styleClass="btn" stylesheets="@books.css" text="Reset" />
+                                    <Button fx:id="updateAu" layoutX="118.0" layoutY="291.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="27.0" prefWidth="80.0" styleClass="btn" stylesheets="@books.css" text="Update" />
+                                    <Button fx:id="deleteAu" layoutX="118.0" layoutY="247.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="27.0" prefWidth="80.0" styleClass="btn" stylesheets="@books.css" text="Delete" />
+                                    <TextField fx:id="textAuNum" layoutX="23.0" layoutY="70.0" onKeyReleased="#handleInput" prefHeight="25.0" prefWidth="170.0" />
+                                    <TextField fx:id="textAuLast" layoutX="23.0" layoutY="127.0" prefHeight="25.0" prefWidth="170.0" />
+                                    <TextField fx:id="textAuFirst" layoutX="23.0" layoutY="188.0" prefHeight="25.0" prefWidth="170.0" />
+                                    <TableView fx:id="tableAuthor" layoutX="218.0" layoutY="44.0" onMouseClicked="#handleGetEditData" prefHeight="449.0" prefWidth="670.0">
+                                       <columns>
+                                          <TableColumn fx:id="colAuNum" prefWidth="119.0" text="Author Num" />
+                                          <TableColumn fx:id="colAuLast" minWidth="3.0" prefWidth="269.0" text="Author Last" />
+                                          <TableColumn fx:id="colAuFirst" minWidth="3.0" prefWidth="281.0" text="Author First" />
+                                       </columns>
+                                    </TableView>
+                                 </children>
+                              </AnchorPane>
+                           </content>
+                        </Tab>
+                        <Tab style="-fx-background-color: #E37A7A;" text="Wrote">
+                           <content>
+                              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="498.0" prefWidth="888.0" style="-fx-background-color: #E37A7A;">
+                                 <children>
+                                    <Label alignment="CENTER" prefHeight="42.0" prefWidth="888.0" text="Publisher">
+                                       <font>
+                                          <Font name="Corbel Bold" size="20.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="28.0" layoutY="44.0" prefHeight="26.0" prefWidth="90.0" text="Book Code" />
+                                    <Label layoutX="28.0" layoutY="101.0" prefHeight="26.0" prefWidth="90.0" text="Author Num" />
+                                    <Label layoutX="28.0" layoutY="162.0" prefHeight="26.0" prefWidth="90.0" text="Squence" />
+                                    <Button fx:id="insertWr" layoutX="23.0" layoutY="247.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="27.0" prefWidth="80.0" styleClass="btn" stylesheets="@books.css" text="Insert" />
+                                    <Button fx:id="resetWr" layoutX="23.0" layoutY="291.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="27.0" prefWidth="80.0" styleClass="btn" stylesheets="@books.css" text="Reset" />
+                                    <Button fx:id="updateWr" layoutX="118.0" layoutY="291.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="27.0" prefWidth="80.0" styleClass="btn" stylesheets="@books.css" text="Update" />
+                                    <Button fx:id="deleteWr" layoutX="118.0" layoutY="247.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="27.0" prefWidth="80.0" styleClass="btn" stylesheets="@books.css" text="Delete" />
+                                    <TextField fx:id="textWrBoCode" layoutX="23.0" layoutY="70.0" onKeyReleased="#handleInput" prefHeight="25.0" prefWidth="170.0" />
+                                    <TextField fx:id="textWrAuNum" layoutX="23.0" layoutY="127.0" prefHeight="25.0" prefWidth="170.0" />
+                                    <TextField fx:id="textWrSequence" layoutX="23.0" layoutY="188.0" prefHeight="25.0" prefWidth="170.0" />
+                                    <TableView fx:id="tableWrote" layoutX="218.0" layoutY="44.0" prefHeight="449.0" prefWidth="670.0">
+                                       <columns>
+                                          <TableColumn fx:id="colWrBo" prefWidth="234.0" text="Book Code" />
+                                          <TableColumn fx:id="ColWrAuNum" minWidth="3.0" prefWidth="226.0" text="Author Num" />
+                                          <TableColumn fx:id="ColWrSquence" minWidth="3.0" prefWidth="209.0" text="Squence" />
+                                       </columns>
+                                    </TableView>
+                                 </children>
+                              </AnchorPane>
+                           </content>
+                        </Tab>
+                        <Tab style="-fx-background-color: #fff;" text="Inventory">
+                           <content>
+                              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="498.0" prefWidth="888.0">
+                                 <children>
+                                    <Label alignment="CENTER" prefHeight="42.0" prefWidth="888.0" text="Inventory">
+                                       <font>
+                                          <Font name="Corbel Bold" size="20.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="28.0" layoutY="44.0" prefHeight="26.0" prefWidth="90.0" text="Book Code" />
+                                    <Label layoutX="28.0" layoutY="101.0" prefHeight="26.0" prefWidth="90.0" text="Branch Num" />
+                                    <Label layoutX="28.0" layoutY="162.0" prefHeight="26.0" prefWidth="90.0" text="On Hand" />
+                                    <Button fx:id="insertInv" layoutX="23.0" layoutY="247.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="27.0" prefWidth="80.0" styleClass="btn" stylesheets="@books.css" text="Insert" />
+                                    <Button fx:id="resetInv" layoutX="23.0" layoutY="291.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="27.0" prefWidth="80.0" styleClass="btn" stylesheets="@books.css" text="Reset" />
+                                    <Button fx:id="updateInv" layoutX="118.0" layoutY="291.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="27.0" prefWidth="80.0" styleClass="btn" stylesheets="@books.css" text="Update" />
+                                    <Button fx:id="deleteInv" layoutX="118.0" layoutY="247.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="27.0" prefWidth="80.0" styleClass="btn" stylesheets="@books.css" text="Delete" />
+                                    <TextField fx:id="textInvBoCode" layoutX="23.0" layoutY="70.0" onKeyReleased="#handleInput" prefHeight="25.0" prefWidth="170.0" />
+                                    <TextField fx:id="textInvBrNum" layoutX="23.0" layoutY="127.0" prefHeight="25.0" prefWidth="170.0" />
+                                    <TextField fx:id="textInvOnHand" layoutX="23.0" layoutY="188.0" prefHeight="25.0" prefWidth="170.0" />
+                                    <TableView fx:id="tableInventory" layoutX="218.0" layoutY="44.0" prefHeight="449.0" prefWidth="670.0">
+                                       <columns>
+                                          <TableColumn fx:id="colInvBoCode" prefWidth="238.0" text="Book Code" />
+                                          <TableColumn fx:id="colInvBrNum" minWidth="3.0" prefWidth="222.0" text="Branch Num" />
+                                          <TableColumn fx:id="colInvOnHand" minWidth="3.0" prefWidth="209.0" text="On Hand" />
+                                       </columns>
+                                    </TableView>
+                                 </children>
+                              </AnchorPane>
+                           </content>
+                        </Tab>
+                    </tabs>
+                  </TabPane>
+               </children>
+            </VBox>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
